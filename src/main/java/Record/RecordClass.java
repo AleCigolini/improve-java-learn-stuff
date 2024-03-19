@@ -1,0 +1,15 @@
+package Record;
+
+/*
+* HERE WE CAN DO SOME CUSTOMIZE CODE LIKE:
+*
+* -- COMPACT CONSTRUCTOR
+* -- STATIC METHODS AND VARIABLES
+* -- IMPLEMENT INTERFACES
+*
+* WE CANNOT DO:
+*
+* -- EXTENDS A CLASS, BECAUSE RECORD IS FINAL
+* */
+
+public record RecordClass(String name, int age) { }
